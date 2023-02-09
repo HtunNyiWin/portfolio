@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+h2{
+    color: blue;
+}
+
+.firstSection, .secondSection{
+    width: 80vw;
+    margin: auto;
+}
+
+.contractMe{
+    margin-top: 5rem;
+}
+
+.thirdSection{
+    background-color: yellow;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 3rem 0 3rem 0;
+}
+.thirdSection img {
+    margin-bottom: 3rem;
+    width: 15rem;
+    border-radius: 100%;
+}
+

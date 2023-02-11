@@ -33,22 +33,24 @@ padding: 3rem 0 3rem 0;
 
 .forthSection {
     display: flex;
-    background-color: gray;
+    /* background-color: gray; */
 }
 .forthSection_leftSide{
-    background-color: black;
+    /* background-color: black; */
 }
 
 .forthSection_rightSide{
-    margin: auto;
+    /* margin: auto; */
     /* background-color: blue; */
     display: flex;
-    justify-content: space-around
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .forthSection_rightSide_upperSection{
     margin: auto;
-    /* background-color: blue; */
+    /* background-color: yellow; */
     display: flex;
     justify-content: space-around
 }
@@ -62,5 +64,9 @@ padding: 3rem 0 3rem 0;
 
 .forthSection_rightSide div{
     margin: 0 1rem 0 1rem;
+}
+
+.forthSection_rightSide_upperSection div, .forthSection_rightSide_underSection div {
+    width: 60px;
 }
 

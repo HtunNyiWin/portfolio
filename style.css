@@ -8,7 +8,7 @@ h2{
     color: blue;
 }
 
-.firstSection, .secondSection{
+.firstSection, .secondSection, .forthSection{
     width: 80vw;
     margin: auto;
 }
@@ -29,5 +29,38 @@ padding: 3rem 0 3rem 0;
     margin-bottom: 3rem;
     width: 15rem;
     border-radius: 100%;
+}
+
+.forthSection {
+    display: flex;
+    background-color: gray;
+}
+.forthSection_leftSide{
+    background-color: black;
+}
+
+.forthSection_rightSide{
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around
+}
+
+.forthSection_rightSide_upperSection{
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around
+}
+
+.forthSection_rightSide_underSection{
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around
+}
+
+.forthSection_rightSide div{
+    margin: 0 1rem 0 1rem;
 }
 

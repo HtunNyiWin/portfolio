@@ -8,7 +8,7 @@ h2{
     color: blue;
 }
 
-.firstSection, .secondSection, .forthSection{
+.navSection, .firstSection, .secondSection, .forthSection, .firthSection, .firthSection{
     width: 80vw;
     margin: auto;
 }
@@ -31,12 +31,13 @@ padding: 3rem 0 3rem 0;
     border-radius: 100%;
 }
 
-.forthSection {
+.forthSection{
     display: flex;
     /* background-color: gray; */
 }
-.forthSection_leftSide{
+.forthSection_leftSide, .firthSection_leftSide{
     /* background-color: black; */
+    width: 20%;
 }
 
 .forthSection_rightSide{
@@ -68,6 +69,32 @@ padding: 3rem 0 3rem 0;
 
 .forthSection_rightSide_upperSection div, .forthSection_rightSide_underSection div {
     width: 60px;
+}
+
+.firthSection_rightSide{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.firthSection_rightSide div{
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#footer{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #fff;
+}
+
+#footer .footer-icon i{
+    margin: 0 1% 0;
+}
+
+#footer p{
+    padding-top: 2%;
 }
 
 

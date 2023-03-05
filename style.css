@@ -5,9 +5,6 @@ body{
     background-color: #FFF2F2;
 }
 
-h2{
-    color: blue;
-}
 
 .navSection, .firstSection, .secondSection, .forthSection, .firthSection, .firthSection{
     width: 80vw;
@@ -16,6 +13,21 @@ h2{
 
 .contractMe{
     margin-top: 5rem;
+}
+
+.firstSection .greeting {
+    /* background-color: black; */
+    margin: 20% 0 20% 0;
+}
+
+.firstSection .greeting h1{
+    margin: 5% 0 5% 0;
+    color: blue;
+}
+
+.secondSection{
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 .thirdSection{

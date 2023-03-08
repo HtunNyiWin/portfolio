@@ -5,7 +5,7 @@ body{
     background-color: #FFF2F2;
 }
 
-
+/* General */
 .navSection, .firstSection, .secondSection, .forthSection, .firthSection, .firthSection{
     width: 80vw;
     margin: auto;
@@ -15,6 +15,8 @@ body{
     margin-top: 5rem;
 }
 
+
+/* First Section */
 .firstSection .greeting {
     /* background-color: black; */
     margin: 20% 0 20% 0;
@@ -25,11 +27,13 @@ body{
     color: blue;
 }
 
+/* Second Section */
 .secondSection{
     margin-top: 20%;
     margin-bottom: 20%;
 }
 
+/* Third Section */
 .thirdSection{
     /* background-color: yellow; */
 display: flex;
@@ -43,7 +47,20 @@ padding: 3rem 0 3rem 0;
     width: 15rem;
     border-radius: 100%;
 }
+.thirdSection h2 {
+    margin-top: 10%;
+    margin-right: 41%;
+}
+.thirdSection pre {
+    margin: 3% 0 3% 0;
+}
 
+.thirdSection p {
+    font-size: larger;
+    font-weight: normal;
+}
+
+/* Forth Section */
 .forthSection{
     display: flex;
     /* background-color: gray; */
@@ -84,6 +101,11 @@ padding: 3rem 0 3rem 0;
     width: 60px;
 }
 
+/* Firth Section */
+.firstSection h1 {
+    color: red;
+}
+
 .firthSection_rightSide{
     display: flex;
     justify-content: space-between;
@@ -96,6 +118,12 @@ padding: 3rem 0 3rem 0;
     margin-top: 1rem;
 }
 
+.firthSection{
+    margin-bottom: 8%;
+}
+
+
+ /* Six Section */
 #footer{
     padding: 5% 10%;
     text-align: center;

@@ -138,4 +138,8 @@ padding: 3rem 0 3rem 0;
     padding-top: 2%;
 }
 
-
+@media (max-width:820px) {
+    .thirdSection .funcyCode {
+        font-size: 10px;
+    }
+}

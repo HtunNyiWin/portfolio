@@ -107,7 +107,7 @@
     <!-- Third Section My Pic with motto -->
     <div class="thirdSection">
       <img
-        src="./data/287486418_5131891966925440_7141703414505674789_n.jpg"
+        src="/data/287486418_5131891966925440_7141703414505674789_n.jpg"
         alt="profileImg"
       />
 
@@ -115,17 +115,19 @@
 
       <h2>HTUN NYI WIN function!</h2>
 
-      <pre>
-        const name = "HTUN NYI WIN";
-        const job = "Mechanical";
-        const hobby = "IT";
+      <div class="funcyCode">
+        <pre>
+          const name = "HTUN NYI WIN";
+          const job = "Mechanical";
+          const hobby = "IT";
+  
+          const htunnyiwin = ( job , hobby ) => {
+            console.log(`My dreamjob is helping people with my ${job} and ${hobby} skills`);
+          }
+        </pre>
+      </div>
 
-        const htunnyiwin = ( job , hobby ) => {
-          console.log(`My dreamjob is helping people with my ${job} and ${hobby} skills`);
-        }
-      </pre>
-
-      <pre id="pre"></pre>
+      <!-- <pre id="pre"></pre> -->
 
       <p>My dreamjob is helping people with my Mechanical and IT skills.</p>
     </div>
